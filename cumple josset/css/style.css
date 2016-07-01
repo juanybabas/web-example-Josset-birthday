@@ -1,0 +1,54 @@
+@font-face {
+  /*font from http://codepen.io/Nimoi/pen/keaFn*/
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background: radial-gradient(#38be56, #000000);
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: calc(50vh - .5em);
+  font-family: Monoton;
+  color: hsla(174, 100%, 87%, 0.67);
+  z-index: -1
+}
+.text1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  font-size: 5vw;
+  text-align: center;;
+  margin-top: calc(60vh - .100em);
+  font-family: Monoton;
+  color: hsla(31, 34%, 74%, 1);
+  z-index: -1
+}
+.text2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  font-size: 5vw;
+  text-align: center;;
+  margin-top: calc(75vh - .100em);
+  font-family: Monoton;
+  color: hsla(31, 34%, 74%, 1);
+  z-index: -1
+}
